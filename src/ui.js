@@ -29,7 +29,7 @@ export default class Ui {
       caption: make('div', [this.CSS.input, this.CSS.caption], {
         contentEditable: !this.readOnly,
       }),
-      linkurl: make('div', [this.CSS.input, this.CSS.linkUrl], {
+      linkUrl: make('div', [this.CSS.input, this.CSS.linkUrl], {
         contentEditable: !this.readOnly,
       })
     };
@@ -73,7 +73,7 @@ export default class Ui {
       imagePreloader: 'image-tool__image-preloader',
       imageEl: 'image-tool__image-picture',
       caption: 'image-tool__caption',
-      linkurl: 'image-tool__link-url',
+      linkUrl: 'image-tool__link-url',
     };
   };
 
